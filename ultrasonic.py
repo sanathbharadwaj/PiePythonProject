@@ -35,5 +35,7 @@ elapsed = stop-start
 # multiplied by the speed of sound (cm/s)
 distance = elapsed * 34300
 
-# That was the distance there and back so halve the value
+ # That was the distance there and back so halve the value
 distance = distance / 2
+
+print distance
