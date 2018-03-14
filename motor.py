@@ -6,7 +6,7 @@ GPIO.setup(33, GPIO.OUT)
 GPIO.setup(35, GPIO.OUT)
 GPIO.setup(37, GPIO.OUT)
 
-while true:
+while True:
     a = input("Enter 1 or 2")
     if a is 1 :
         GPIO.output(31, True)
