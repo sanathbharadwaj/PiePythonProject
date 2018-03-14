@@ -4,7 +4,7 @@ GPIO.setmode(GPIO.BOARD)
 #Define GPIO to use on Pi
 GPIO_TRIGGER = 3
 GPIO_ECHO    = 5
-while true:
+while True:
     print "Ultrasonic Measurement"
 
     # Set pins as output and input
