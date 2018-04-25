@@ -11,6 +11,7 @@ while true:
     if a is 1 :
         GPIO.output(31, True)
         GPIO.output(33, False)
+        
     else:
         GPIO.output(35, True)
-        GPIO.output(37, False)
+        GPIO.output(15, False)
